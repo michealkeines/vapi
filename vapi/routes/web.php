@@ -28,7 +28,9 @@ Route::get('/openapi.json', function () {
 
     // Convert JSON to PHP array
     $data = json_decode($json, true);
+    $formattedJson = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
 
     // Return JSON response
-    return response()->json($data);
+    return response($formattedJson)
+        ->header('Content-Type', 'application/json');
 });
