@@ -112,7 +112,7 @@
           "200": {
             "description": "Successful response",
             "content": {
-              
+              "application/json": {}
             }
           }
         }
@@ -154,7 +154,7 @@
           "200": {
             "description": "Successful response",
             "content": {
-              
+              "application/json": {}
             }
           }
         }
@@ -214,7 +214,7 @@
           "200": {
             "description": "Successful response",
             "content": {
-              
+              "application/json": {}
             }
           }
         }
@@ -253,7 +253,7 @@
           "200": {
             "description": "Successful response",
             "content": {
-              
+              "application/json": {}
             }
           }
         }
@@ -279,7 +279,7 @@
           "200": {
             "description": "Successful response",
             "content": {
-              
+              "application/json": {}
             }
           }
         }
@@ -319,7 +319,7 @@
           "200": {
             "description": "Successful response",
             "content": {
-              
+              "application/json": {}
             }
           }
         }
@@ -357,7 +357,7 @@
           "200": {
             "description": "Successful response",
             "content": {
-              
+              "application/json": {}
             }
           }
         }
@@ -395,7 +395,7 @@
           "200": {
             "description": "Successful response",
             "content": {
-              
+              "application/json": {}
             }
           }
         }
@@ -429,7 +429,7 @@
           "200": {
             "description": "Successful response",
             "content": {
-              
+              "application/json": {}
             }
           }
         }
@@ -471,7 +471,7 @@
           "200": {
             "description": "Successful response",
             "content": {
-              
+              "application/json": {}
             }
           }
         }
@@ -505,7 +505,7 @@
           "200": {
             "description": "Successful response",
             "content": {
-              
+              "application/json": {}
             }
           }
         }
@@ -545,7 +545,7 @@
           "200": {
             "description": "Successful response",
             "content": {
-              
+              "application/json": {}
             }
           }
         }
@@ -571,7 +571,7 @@
           "200": {
             "description": "Successful response",
             "content": {
-              
+              "application/json": {}
             }
           }
         }
@@ -610,7 +610,7 @@
           "200": {
             "description": "Successful response",
             "content": {
-              
+              "application/json": {}
             }
           }
         }
@@ -644,7 +644,7 @@
           "200": {
             "description": "Successful response",
             "content": {
-              
+              "application/json": {}
             }
           }
         }
@@ -670,7 +670,7 @@
           "200": {
             "description": "Successful response",
             "content": {
-              
+              "application/json": {}
             }
           }
         }
@@ -696,7 +696,7 @@
           "200": {
             "description": "Successful response",
             "content": {
-              
+              "application/json": {}
             }
           }
         }
@@ -735,7 +735,7 @@
           "200": {
             "description": "Successful response",
             "content": {
-              
+              "application/json": {}
             }
           }
         }
@@ -761,7 +761,7 @@
           "200": {
             "description": "Successful response",
             "content": {
-              
+              "application/json": {}
             }
           }
         }
@@ -800,7 +800,7 @@
           "200": {
             "description": "Successful response",
             "content": {
-              
+              "application/json": {}
             }
           }
         }
@@ -827,7 +827,7 @@
           "200": {
             "description": "Successful response",
             "content": {
-              
+              "application/json": {}
             }
           }
         }
