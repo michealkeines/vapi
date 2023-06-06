@@ -7,16 +7,10 @@
   },
   "servers": [
     {
-      "url": "http://{{host}}"
+      "url": ""
     }
   ],
   "components": {
-    "securitySchemes": {
-      "noauthAuth": {
-        "type": "http",
-        "scheme": "noauth"
-      }
-    }
   },
   "tags": [
     {
@@ -85,11 +79,6 @@
             }
           }
         },
-        "security": [
-          {
-            "noauthAuth": []
-          }
-        ],
         "parameters": [
           {
             "name": "Content-Type",
@@ -112,7 +101,14 @@
           "200": {
             "description": "Successful response",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "created"
+                  }
+                }
+              }
             }
           }
         }
@@ -154,7 +150,14 @@
           "200": {
             "description": "Successful response",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "created"
+                  }
+                }
+              }
             }
           }
         }
@@ -179,11 +182,6 @@
             }
           }
         },
-        "security": [
-          {
-            "noauthAuth": []
-          }
-        ],
         "parameters": [
           {
             "name": "Authorization-Token",
@@ -214,7 +212,14 @@
           "200": {
             "description": "Successful response",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "created"
+                  }
+                }
+              }
             }
           }
         }
@@ -253,7 +258,14 @@
           "200": {
             "description": "Successful response",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "created"
+                  }
+                }
+              }
             }
           }
         }
@@ -279,7 +291,14 @@
           "200": {
             "description": "Successful response",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "created"
+                  }
+                }
+              }
             }
           }
         }
@@ -319,7 +338,14 @@
           "200": {
             "description": "Successful response",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "created"
+                  }
+                }
+              }
             }
           }
         }
@@ -357,7 +383,14 @@
           "200": {
             "description": "Successful response",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "created"
+                  }
+                }
+              }
             }
           }
         }
@@ -395,7 +428,14 @@
           "200": {
             "description": "Successful response",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "created"
+                  }
+                }
+              }
             }
           }
         }
@@ -429,7 +469,14 @@
           "200": {
             "description": "Successful response",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "created"
+                  }
+                }
+              }
             }
           }
         }
@@ -471,7 +518,14 @@
           "200": {
             "description": "Successful response",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "created"
+                  }
+                }
+              }
             }
           }
         }
@@ -505,7 +559,14 @@
           "200": {
             "description": "Successful response",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "created"
+                  }
+                }
+              }
             }
           }
         }
@@ -545,7 +606,14 @@
           "200": {
             "description": "Successful response",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "created"
+                  }
+                }
+              }
             }
           }
         }
@@ -571,7 +639,14 @@
           "200": {
             "description": "Successful response",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "created"
+                  }
+                }
+              }
             }
           }
         }
@@ -610,7 +685,14 @@
           "200": {
             "description": "Successful response",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "created"
+                  }
+                }
+              }
             }
           }
         }
@@ -644,7 +726,14 @@
           "200": {
             "description": "Successful response",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "created"
+                  }
+                }
+              }
             }
           }
         }
@@ -670,7 +759,14 @@
           "200": {
             "description": "Successful response",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "created"
+                  }
+                }
+              }
             }
           }
         }
@@ -696,7 +792,14 @@
           "200": {
             "description": "Successful response",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "created"
+                  }
+                }
+              }
             }
           }
         }
@@ -735,7 +838,14 @@
           "200": {
             "description": "Successful response",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "created"
+                  }
+                }
+              }
             }
           }
         }
@@ -761,7 +871,14 @@
           "200": {
             "description": "Successful response",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "created"
+                  }
+                }
+              }
             }
           }
         }
@@ -800,7 +917,14 @@
           "200": {
             "description": "Successful response",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "created"
+                  }
+                }
+              }
             }
           }
         }
@@ -827,7 +951,14 @@
           "200": {
             "description": "Successful response",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "created"
+                  }
+                }
+              }
             }
           }
         }
