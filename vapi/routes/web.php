@@ -29,3 +29,16 @@ Route::get('/openapi.json', function () {
     return response($json)
         ->header('Content-Type', 'application/json');
 });
+
+Route::get('/getapi', function () {
+    // Read the JSON file
+    require("vendor/autoload.php");
+
+    $openapi = \OpenApi\Generator::scan(['/var/www/html/vapi']);
+
+    header('Content-Type: application/x-yaml');
+$json = $openapi->toYaml();
+echo $json;
+    // Return JSON response
+    return response($json);
+});

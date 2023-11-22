@@ -11,7 +11,20 @@
     }
   ],
   "components": {
+    "securitySchemes": {
+      "Token": {
+        "type": "apiKey",
+        "description": "",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
   },
+  "security": [
+    {
+      "Token": ["testste"]
+    }
+  ],
   "tags": [
     {
       "name": "API1",
@@ -64,6 +77,11 @@
           "API1"
         ],
         "summary": "Create User",
+        "security": [
+          {
+            "Token": ["testste2"]
+          }
+        ],
         "requestBody": {
           "content": {
             "application/json": {
