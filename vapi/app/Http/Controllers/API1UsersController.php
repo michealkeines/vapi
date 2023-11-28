@@ -33,6 +33,12 @@ class API1UsersController extends Controller
             ->header('Content-Type', 'application/json');
     }
 
+    public function getall(Request $request)
+    {
+        return response(json_encode(array("success"=>"true","users"=>"lol, lol2")), 200)
+            ->header('Content-Type', 'application/json');
+    }
+
     public function store(Request $request)
     {
         // try

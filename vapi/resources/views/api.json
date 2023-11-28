@@ -132,6 +132,39 @@
         }
       }
     },
+    "/vapi/api1/getallusers": {
+      "get": {
+        "tags": [
+          "API1"
+        ],
+        "summary": "Get all Users",
+        "parameters": [
+          {
+            "name": "Authorization-Token",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "{{api1_auth}}"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "msg": "users, lol"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/vapi/api1/user/{api1_id}": {
       "get": {
         "tags": [

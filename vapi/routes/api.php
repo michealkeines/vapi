@@ -30,6 +30,7 @@ Route::get('dashboard/flag','App\Http\Controllers\FlagController@verify');
 /* API 1 */
 
 Route::get('api1/user/{id}','App\Http\Controllers\API1UsersController@show');
+Route::get('api1/user/getallusers','App\Http\Controllers\API1UsersController@getall');
 
 Route::post('api1/user','App\Http\Controllers\API1UsersController@store');
 
